@@ -1,10 +1,10 @@
 package com.example.screens;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-public class MainActivity2 extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Activity2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -12,4 +12,3 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
     }
 }
-//
