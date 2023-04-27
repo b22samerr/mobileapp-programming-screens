@@ -19,7 +19,10 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivity2();
+                Intent intent = new Intent(MainActivity.this, Activity2.class);
+                intent.putExtra("name", "Ergul"); // Option
+                startActivity(intent);
+
 
             }
         });
@@ -27,12 +30,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void openActivity2() {
 
-        Intent intent = new Intent(MainActivity.this, Activity2.class);
-        intent.putExtra("name", "Daniel"); // Optional
-        intent.putExtra("number", 1); // Optional
-        startActivity(intent);
+
+
 
     }
+
+
+
 
 
 }
