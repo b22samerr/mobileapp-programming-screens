@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("name", "Daniel"); // Optional
         intent.putExtra("number", 1); // Optional
         startActivity(intent);
+        //hej
     }
 
 
