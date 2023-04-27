@@ -21,6 +21,5 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:text="Öppna activity 2" />
-
 </RelativeLayout>
 
