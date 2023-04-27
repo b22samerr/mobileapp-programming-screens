@@ -15,7 +15,7 @@ public class Activity2 extends AppCompatActivity {
         if (extras != null) {
             String name = extras.getString("name");
             int number = extras.getInt("number");
-            // Do something with the name and number
+            // Do something with the name and numbe
         }
     }
 }
