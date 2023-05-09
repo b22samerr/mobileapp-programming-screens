@@ -21,7 +21,7 @@ public class Activity2 extends AppCompatActivity {
         if (extras != null) {
             String namn = extras.getString("name");
             int number = extras.getInt("number");
-            // Do something with the name and number
+            // Do something with the name and numbe
             skrivText = findViewById(R.id.textView);
             skrivText.setText(namn);
         }
