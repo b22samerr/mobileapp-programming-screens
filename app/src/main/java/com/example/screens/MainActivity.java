@@ -22,20 +22,9 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, Activity2.class);
                 intent.putExtra("name", "Ergul"); // Option
                 startActivity(intent);
-
-
             }
         });
     }
-
-    public void openActivity2() {
-
-
-
-
-    }
-
-
 
 
 
