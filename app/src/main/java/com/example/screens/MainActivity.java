@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Activity2.class);
-                intent.putExtra("name", "Ergul"); // Option
+                intent.putExtra("name", "Ergul"); // Optionn
                 startActivity(intent);
             }
         });
